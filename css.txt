@@ -1,0 +1,87 @@
+ body { 
+       background-color: gold;
+      }
+
+       div.greeting {
+                   background-color: yellow;
+                   padding: 20px;
+                   margin: 20px;
+                   border: 8px solid goldenrod;
+                  }
+    
+        h1 {
+             text-align: center;
+             text-decoration: underline;
+             padding: 20px; 
+           }
+
+        p {
+            font-size: 20px;
+            color: grey; 
+          }
+     
+       span {
+             font-style: italic;
+             font-weight: bold;
+            }
+         
+      .green {
+               text-decoration: underline;
+             }
+
+      .red {
+             font-style: normal;
+             color: red;
+           }
+       
+      .image {
+              list-style-image: url("https://mdn.mozillademos.org/files/11981/starsolid.gif");
+             }
+
+        ol {
+               list-style-type: upper-roman;
+            }
+
+        li {
+            font-size: 15px;
+            color: grey;
+          }
+
+        h4 {
+            padding: 10px;
+          }
+
+        h2 {
+            padding: 10px;
+          }
+
+        h3 {
+             padding: 10px;
+           }
+ 
+        h2 {
+           padding: 10px;
+         }
+
+
+    @media screen and (max-width: 400px) {
+        body {
+                background-color: khaki;
+                font-size: 10px;
+             }   
+        div.greeting {
+                      display: none;
+                     }
+        p {
+           font-size: 15px;
+          }
+        li {
+                  font-size: 10px;
+                 }
+       }
+
+    @media screen and (max-width: 750px) {
+        body {
+                  background-color: yellow;
+              }
+            }
